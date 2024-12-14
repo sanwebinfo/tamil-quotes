@@ -1,6 +1,4 @@
-# தமிழ் கவிதைகள் 💚
-
-![build-test](https://github.com/sanwebinfo/tamil-quotes/workflows/build-test/badge.svg)  
+# தமிழ் கவிதைகள் 💚  
 
 A static site for sharing Tamil kavithai and Tamil Quotes.  
 
