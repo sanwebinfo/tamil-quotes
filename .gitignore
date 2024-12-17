@@ -13,10 +13,6 @@ dist-ssr
 quotes
 quotes-ssr
 *.local
-src/data
-/src/data
-/src/data/quotes.json
-quotes.json
 
 # Editor directories and files
 .vscode/*
