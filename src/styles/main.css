@@ -26,23 +26,21 @@ body {
   justify-content: center;
 }
 
-.card {
+.box {
+  position: relative;
   background: #833471;
   border: 1px solid #B33771;
   color: #F8EFBA;
-  border-radius: 15px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  padding: 30px;
+  padding-top: 68px;
+  padding-bottom: 50px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  word-wrap: break-word;
-  margin-bottom: 1rem;
-  text-align: center;
+  font-family: "Anek Tamil", sans-serif;
+  letter-spacing: .04em;
 }
 
-.card-content {
-  font-family: "Anek Tamil", sans-serif;
-  margin-top: 4rem;
-  margin-bottom: 3rem;
-  word-wrap: break-word;
-}
 .copy-btn {
   position: absolute;
   top: 5px;
@@ -63,14 +61,15 @@ body {
   transform: scale(1.1);
 }
 
-  .quote-text {
-    font-size: 18px;
-    font-family: "Anek Tamil", sans-serif;
-    font-weight: 600;
-    line-height: 1.6;
-    margin-bottom: 45px;
-    word-wrap: break-word;
-  }
+.quote-text {
+  font-size: 16px;
+  font-family: "Anek Tamil", sans-serif;
+  font-weight: 600;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  text-align: left;
+  word-wrap: break-word;
+}
   .title {
     color: #1d1702;
     font-family: "Anek Tamil", sans-serif;
@@ -171,7 +170,7 @@ body.has-background-dark {
   color: #f7d794;
 }
 
-body.has-background-dark .card {
+body.has-background-dark .box {
   background-image: linear-gradient(to right top, #32072b, #290924, #21081d, #1a0617, #10030e);
   border: 1px solid #9a74f1;
 }
