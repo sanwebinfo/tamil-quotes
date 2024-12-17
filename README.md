@@ -1,5 +1,7 @@
 # தமிழ் கவிதைகள் 💚  
 
+![build-test](https://github.com/sanwebinfo/tamil-quotes/workflows/build-test/badge.svg) [![cloudflare-pages](https://github.com/sanwebinfo/tamil-quotes/actions/workflows/deploy.yml/badge.svg)](https://github.com/sanwebinfo/tamil-quotes/actions/workflows/deploy.yml)  
+
 A static site for sharing Tamil kavithai and Tamil Quotes.  
 
 > Built using: Typescript, Bulma css and Vite  
